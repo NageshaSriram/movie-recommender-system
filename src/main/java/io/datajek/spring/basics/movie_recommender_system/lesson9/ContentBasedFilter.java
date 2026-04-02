@@ -1,5 +1,6 @@
 package io.datajek.spring.basics.movie_recommender_system.lesson9;
 
+import io.datajek.spring.basics.movie_recommender_system.lesson10.Movie;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Lookup;
 import org.springframework.stereotype.Component;
