@@ -1,4 +1,4 @@
-package io.datajek.spring.basics.movie_recommender_system.lesson11;
+package io.datajek.spring.basics.movie_recommender_system.lesson12;
 
 import jakarta.annotation.PostConstruct;
 import jakarta.annotation.PreDestroy;

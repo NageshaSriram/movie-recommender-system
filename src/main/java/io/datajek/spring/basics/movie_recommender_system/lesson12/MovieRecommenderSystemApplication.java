@@ -1,5 +1,6 @@
-package io.datajek.spring.basics.movie_recommender_system.lesson11;
+package io.datajek.spring.basics.movie_recommender_system.lesson12;
 
+import io.datajek.spring.basics.movie_recommender_system.lesson11.Movie;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -14,13 +15,7 @@ public class MovieRecommenderSystemApplication {
 		RecommenderImplementation recommenderImplementation = applicationContext.getBean(RecommenderImplementation.class);
 		System.out.println("RecommenderImplementation: " + recommenderImplementation);
 
-		Movie m1 = applicationContext.getBean(Movie.class);
-		System.out.println(m1);
-
-		Movie m2 = applicationContext.getBean(Movie.class);
-		System.out.println(m2);
-
-		m1.preDestroy();
+		System.out.println(recommenderImplementation.getFilter());
 
 	}
 
